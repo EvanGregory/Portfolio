@@ -43,8 +43,6 @@ public class PlayerMove : MonoBehaviour
 	[SerializeField] private AudioClip _shootSound;
 	[SerializeField] private AudioClip _turnSound;
 	
-	
-	// not scuffed in the slightest
 	private void Awake()
 	{
 		{
@@ -63,7 +61,6 @@ public class PlayerMove : MonoBehaviour
 			LevelManager.Instance.playerMove = this;
 	}
 
-	// not scuffed in the slightest
 	void Start()
     {
 	    if (LevelManager.Instance)
