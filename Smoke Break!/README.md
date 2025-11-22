@@ -13,10 +13,8 @@ The core of this is the Smoke shader I wrote, which takes in a list of smoke bal
 
 Now, the player character is made up of a collection of these balls and they can gather more from their environment. The next step was to somehow shape these balls to give the player a specific look. After a lot of iterating, I ended up with a system similar in concept to how a skinned mesh works. The balls are like the verticies of a skinned mesh and there are underlying bones which they follow. The bones follow the player's head like a snake and as more balls are added on, they fill in locations farther down the snake, making the player longer.
 
-`gif of just the bones`
-`gif of player moving same as bone gif`
-
-`gif of collecting or losing smoke`
+![Wireframe Movement](https://github.com/user-attachments/assets/3915c343-fad9-4a82-a0b5-bf19211f0e3d)
+![Smoke Movement](https://github.com/user-attachments/assets/a174c1fe-3e55-4459-9016-c9a426cb0e7a)
 
 The file `Smoke.Shader` is the well, smoke shader...  
 `SmokeContainer.cs`, `PlayerSmokeController.cs`, and `SmokeBall.cs` define how the smoke date is managed.  
