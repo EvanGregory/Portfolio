@@ -17,7 +17,7 @@ Now, the player character is made up of a collection of these balls and they can
 ![Smoke Movement](https://github.com/user-attachments/assets/a174c1fe-3e55-4459-9016-c9a426cb0e7a)
 
 The file `Smoke.Shader` is the well, smoke shader...  
-`SmokeContainer.cs`, `PlayerSmokeController.cs`, and `SmokeBall.cs` define how the smoke date is managed.  
+`SmokeContainer.cs`, `PlayerSmokeController.cs`, and `SmokeBall.cs` define how the smoke data is managed.  
 `SnakeFollow.cs` slides the bones around to follow the player head.
 
 ## Enemies
