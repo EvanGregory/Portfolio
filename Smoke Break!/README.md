@@ -9,7 +9,7 @@ When we were setting out, the goal of the smoke character was for it to react wi
 
 The core of this is the Smoke shader I wrote, which takes in a list of smoke balls and renders their surface using a raymarch. Basically, you render a mesh which encompasses the potential area in which the smoke could be, and then the pixel shader discards pixels which are not a part of the surface and adjusts the normals and lighting position for those that are.
 
-`gif of smoke balls combining together`
+![Smoke Drag Through - High](https://github.com/user-attachments/assets/3239dfb3-7db6-4a40-8f5c-a0049178129f)
 
 Now, the player character is made up of a collection of these balls and they can gather more from their environment. The next step was to somehow shape these balls to give the player a specific look. After a lot of iterating, I ended up with a system similar in concept to how a skinned mesh works. The balls are like the verticies of a skinned mesh and there are underlying bones which they follow. The bones follow the player's head like a snake and as more balls are added on, they fill in locations farther down the snake, making the player longer.
 
