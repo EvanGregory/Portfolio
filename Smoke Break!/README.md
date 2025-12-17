@@ -16,10 +16,6 @@ Now, the player character is made up of a collection of these balls and they can
 ![Wireframe Movement](https://github.com/user-attachments/assets/3915c343-fad9-4a82-a0b5-bf19211f0e3d)
 ![Smoke Movement](https://github.com/user-attachments/assets/a174c1fe-3e55-4459-9016-c9a426cb0e7a)
 
-The file `Smoke.Shader` is the well, smoke shader...  
-`SmokeContainer.cs`, `PlayerSmokeController.cs`, and `SmokeBall.cs` define how the smoke data is managed.  
-`SnakeFollow.cs` slides the bones around to follow the player head.
-
 ## Enemies
 The enemies in the game are designed to follow some pretty standard stealth game rules, they can detect and then chase the player and will return to their idle state once they have lost track of the player. As the project went on, we kept adding more to their behaviour.  
 `EnemyBase.cs` is the base behavior for all enemy types and `EnemySecurity.cs` is an example of one of those derived types. We initially wanted to have 3 enemy types in the game but scoped it down to just 2, the security (which are the bakers in the game) and the janitor. 
