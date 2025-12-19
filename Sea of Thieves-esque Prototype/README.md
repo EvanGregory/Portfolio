@@ -10,6 +10,10 @@ Once I had the water working, I wanted to get a boat sailing around on it, and r
 
 I then wrote an system of interactables, which lets the player climb onto the boat, and use the sails, wheel, and anchor. I wanted these systems to mirror how they work in Sea of Thieves. I'm quite happy with how the interactables turned out, I wanted to avoid giving an interactable direct control of the player and their inputs, since I've seen on previous projects how clunky that can be to write and debug. In this case, the PlayerMove component is constantly in control and updating. PlayerMove decides which interactable is the optimal one to select and when it cedes control to the interactable, it does so by calling `OnRecieveInput` on the Interactable every frame. This way, if I ever need to interrupt an interaction (say, if the player took damage), I can do so without needing to worry about making sure the interactable gives up control first.
 
+Here is a video of me playing it.
+
+[![Video thumbnail](https://img.youtube.com/vi/ych8F8AiIlQ/0.jpg)](https://www.youtube.com/watch?v=ych8F8AiIlQ)
+
 ## Decal Shader
 Unity's built in decal shader wasn't working correctly so I made my own! I render a cube in the scene where the decal is supposed to be and then determine whether the scene geometry lies inside of that cube in the fragment shader. If it does, then I draw the decal texture over top of the terrain. I had a big breakthough moment working on this when I realized that all the math get so much easer if I use model space positions instead of world space.
 
