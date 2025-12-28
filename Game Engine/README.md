@@ -1,5 +1,7 @@
 # Game Engine
-This project was the primary focus of my favorite class at USC, ITP-485. Over the course of the semester, we each built a game engine from scratch. I coded it in C++ and used DX11 for the rendering. I am very proud with how my version of the engine turned out. Sadly, since I don't want any future students to be able to cheat off of my work, I cannot post any of the code here, though I do have a private GitHub repo I would love to share with anyone interested! There were many different things that I added to the engine, including an animation system, a multithreaded jobs system, text renderer, some post-processes, some simple collision detection, and a profiler. I won't be going into detail about everything here, but it culminates with this clip of a skinned mesh character running and jumping around a simple world.
+This project was the primary focus of my favorite class at USC, ITP-485. Over the course of the semester, we each built a game engine from scratch. I coded it in C++ and used DX11 for the rendering. I am very proud with how my version of the engine turned out. Sadly, since I don't want any future students to be able to cheat off of my work, I cannot post any of the code here, though I do have a private GitHub repo I would love to share with anyone interested! 
+
+There were many different things that I added to the engine, including an animation system, a multithreaded jobs system, text renderer, some post-processes, some simple collision detection, and a profiler. I won't be going into detail about everything here, but it culminates with this clip of a skinned mesh character running and jumping around a simple world.
 
 https://github.com/user-attachments/assets/1ecf014e-9fca-4faf-85b5-2d324f571edc
 
