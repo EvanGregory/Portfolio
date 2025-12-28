@@ -1,5 +1,5 @@
 # Smoke Break!
-Smoke Break is a game that I was lead engineer on! It is available on Steam [here](https://store.steampowered.com/app/3564090/Smoke_Break/).
+Smoke Break is a game that I was lead engineer on! It is available on Steam [here](https://store.steampowered.com/app/3564090/Smoke_Break/). Check it out!
 
 I worked on this project for a little over a year, and there were a lot of people on the project, so i've added here a couple of the files for which I was the primary author.
 
