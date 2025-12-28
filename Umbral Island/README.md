@@ -4,8 +4,14 @@ This was the first game that I made in Unity. This was a 2 person group project.
 ## Gameplay
 This game is primarily a stealth-puzzle game, with some sections about evading enemies and others where the player must solve light puzzles in order to open the way forward. I took inspiration from the game Darkwood for the game's camera perspective. When the player is not directly looking at something with their flashlight, the environment is very dark and it is easy to get lost. However, when the player is in the light, they may be quickly detected by enemies.
 
+![Umbral Island - Interation](https://github.com/user-attachments/assets/24b1e89b-304e-4f08-93d2-a51b1ecfa147)
+
 ## Enemies
 Inspired by how looking at enemies was punished in the game Amnesia, looking at enemies with the flashlight will cause them to dectect the player. When enemies are in the darkness however, they fade out and become entirely invisible. I wanted the player to feel a sense of safety but also uncertainty when hiding in the dark.
 
+![Umbral Island - Enemy Seen](https://github.com/user-attachments/assets/f6e0ba07-1aaa-4561-95b6-0495442e69bf)
+
 ## 
 I am quite proud of how this project turned out, given the amount of experience I had making games at the time. Looking back, there are so many simple fixes I could make to polish the game which I did not know of at the time. This game was an important learning experience for me. My next big project (Smoke Break) happened to also be a top down stealth game and I avoided a lot of pitfalls in building that game that I made in this one.
+
+![Umbral Island - Monster Chase](https://github.com/user-attachments/assets/792ed82a-237b-4ebc-88bd-047c30a336ef)
