@@ -5,7 +5,7 @@ I worked on this project for a little over a year, and there were a lot of peopl
 
 ## Smoke Render
 The main thing I want to show off here is the system I wrote for rendering our player character, Applewood, who is a blob of smoke.
-When we were setting out, the goal of the smoke character was for it to react with other smoke in the environment and to get bigger or smaller as a representation of the player's health. Now, to accomblish that goal, I ended up building a few seperate layers that would achive that effect.
+When we were setting out, the goal of the smoke character was for it to react with other smoke in the environment and to get bigger or smaller as a representation of the player's health. Now, to accomplish that goal, I ended up building a few seperate layers that would achive that effect.
 
 The core of this is the Smoke shader I wrote, which takes in a list of smoke balls and renders their surface using a raymarch. Basically, you render a mesh which encompasses the potential area in which the smoke could be, and then the pixel shader discards pixels which are not a part of the surface and adjusts the normals and lighting position for those that are.
 
