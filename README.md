@@ -7,6 +7,9 @@ Hi! My name is Evan Gregory. In this repo, I have some code samples and videos o
 ## [Game Engine](https://github.com/EvanGregory/Portfolio/tree/main/Game%20Engine#game-engine)
 https://github.com/user-attachments/assets/26b194c1-cd00-4f4d-bb00-ae7ac2924192
 
+## Project Disciple
+[Here](https://github.com/EvanGregory/Portfolio/tree/main/Project%20Disciple#project-disciple)
+
 ## Multiplayer Game in Unreal 5
 [![Networked Game Example - GIF](https://github.com/user-attachments/assets/adb368a5-d233-4f86-a94d-61da5a1a7c21)](https://github.com/EvanGregory/Portfolio/tree/main/Unreal%205%20Projects#unreal-5-projects)
 
