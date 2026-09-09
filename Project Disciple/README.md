@@ -29,4 +29,4 @@ The top level of the behavior tree ended up looking a lot like a state machine, 
 
 Here is a video of me playing through what we ended up with.
 
-[![Video thumbnail](https://img.youtube.com/vi/7Y026xAcld8/0.jpg)](https://www.youtube.com/watch?v=7Y026xAcld8)
+[![Video thumbnail](https://img.youtube.com/vi/YY9pqcmQaLA/0.jpg)](https://youtu.be/YY9pqcmQaLA)
