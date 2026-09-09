@@ -7,7 +7,7 @@ I worked on this project for just over 4 months, and will talk about some of the
 ## UI
 We had a UI designer who created Figma drawings for each menu, and one of my jobs was to import them into the engine. I learned a lot about the UMG editor doing this. 
 
-Since our game would be running on phones, it was important that we kept texture sizes small. To this end, I requested that most of the menu and button backgrounds were to be 9-sliced. I also thought that is was important that we kept consistent font sizes between menus, so I created some common font styles and made sure that the menus avoided any form of scaling high up in the widget hierarchy.
+Since our game would be running on phones, it was important that we kept texture sizes small. To this end, I requested that most of the menu and button backgrounds were to be 9-sliced. I also thought that is was important that we kept consistent font sizes between menus and avoided any text scaling to keep the text looking crisp, so I created some common font styles and made sure that the menus avoided any form of scaling high up in the widget hierarchy.
 
 I noticed that Unreal's built in WrapBox container would fail to properly create space around each child widget, and refused to keep each element in the box the exact same size. To fix this, I created my own box widget class in C++, which is basically just a vertical box full of horizontal boxes.
 
